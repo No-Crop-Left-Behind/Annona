@@ -21,6 +21,15 @@
 
 ## Installation
 
+### Client Side
+This client uses [yarn](https://classic.yarnpkg.com/en/) for its dependency management.
+If you do not have yarn installed please follow these [instructions](https://classic.yarnpkg.com/en/) to install yarn on your machine.
+
+1. Within Annona `cd client`
+2. `yarn install`
+3. `yarn start`
+4. Head to https://localhost:3000
+
 ## Resources
 
 
