@@ -33,7 +33,8 @@ If you do not have yarn installed please follow these [instructions](https://cla
 
 ### Back-End Side
 1. Within Annona root directory, `cd backend`
-2. Follow [instructions here](https://github.com/No-Crop-Left-Behind/no-food-left-behind-server).
+2. Please see [instructions here](https://github.com/No-Crop-Left-Behind/no-food-left-behind-server).
+3. Continue starting localhost server and postgres database with instructions.
 
 ## Resources
 
