@@ -20,18 +20,20 @@
 ## Usage
 
 ## Installation
+`git clone https://github.com/No-Crop-Left-Behind/annona`
 
 ### Client Side
 This client uses [yarn](https://classic.yarnpkg.com/en/) for its dependency management.
 If you do not have yarn installed please follow these [instructions](https://classic.yarnpkg.com/en/) to install yarn on your machine.
 
-1. Within Annona `cd client`
+1. Within Annona root directory, `cd client`
 2. `yarn install`
 3. `yarn start`
 4. Head to https://localhost:3000
 
-### Server Side
-If you would like to run the server locally, please see [instructions here](https://github.com/No-Crop-Left-Behind/no-food-left-behind-server).
+### Back-End Side
+1. Within Annona root directory, `cd backend`
+2. Follow [instructions here](https://github.com/No-Crop-Left-Behind/no-food-left-behind-server).
 
 ## Resources
 
