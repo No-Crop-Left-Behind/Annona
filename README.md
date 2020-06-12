@@ -30,6 +30,9 @@ If you do not have yarn installed please follow these [instructions](https://cla
 3. `yarn start`
 4. Head to https://localhost:3000
 
+### Server Side
+If you would like to run the server locally, please see [instructions here](https://github.com/No-Crop-Left-Behind/no-food-left-behind-server)
+
 ## Resources
 
 
