@@ -75,9 +75,10 @@ export const LogoWrapper = styled.div`
 
 export const StyledLinks = styled(Link)`
   padding: 25px;
-  color: #313c40;
+  color: #2DA539;
   text-decoration: none;
   font-weight: 600;
+  font-family: 'Roboto', Serif;
 `
 
 export default Navbar

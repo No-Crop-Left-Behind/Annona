@@ -12,6 +12,7 @@ export const HomeHeader = styled.h2`
 export const ContentWrapper = styled.p`
   margin: 40px auto;
   font-size: 1.618em;
+  text-align: center;
 
   span {
     color: ${color.logo};
@@ -24,7 +25,7 @@ export const SubHeaderWrapper = styled.div`
 `
 
 export const SectionWrapper = styled.div`
-  background-color: ${color.dark};
+  background-color: ${color.lightblue};
   min-height: 500px;
   padding: 60px 0;
 
@@ -50,7 +51,8 @@ export const SectionContainer = styled.div`
 
 export const LearnMoreLink = styled(StyledLink)`
   display: block;
-  margin: 32px 0;
+  margin-left: auto;
+  margin-right: auto;
   width: fit-content;
 `
 
@@ -60,8 +62,8 @@ export const ImageContainer = styled.div`
   background: linear-gradient(
       to bottom,
       rgba(49, 60, 64, 0) 0%,
-      rgba(49, 60, 64, 0.25) 50%,
-      rgba(49, 60, 64, 0.85) 100%
+      rgba(49, 60, 64, 0.10) 50%,
+      rgba(49, 60, 64, 0.20) 100%
     ),
     ${({ imageUrl }) => `url(${imageUrl})`};
   background-position: center right;
@@ -95,8 +97,8 @@ const HomePage = (props) => {
       <SubHeaderWrapper>
         <HomeHeader>Let's work together</HomeHeader>
         <ContentWrapper>
-          <span>annona</span> will help you make food choices that will do less
-          harm to the environment, eliminate waste, and help people in need.
+          <span>annona</span> aims to assist agricultural workers, solve food supply disruptions, eliminate food waste,
+          and save vulnerable populations from the growing hunger crisis caused by the COVID-19 pandemic.
         </ContentWrapper>
         <LearnMoreLink to="/mission">Learn More</LearnMoreLink>
       </SubHeaderWrapper>
@@ -105,12 +107,12 @@ const HomePage = (props) => {
           <h3>What can I do?</h3>
           <HelpWrapper>
             <HelpLink to="/donors">
-              <ImageContainer imageUrl="https://res.cloudinary.com/dfxj5hpgc/image/upload/v1590953228/food-donations-960x640_b6yri1.jpg">
+              <ImageContainer imageUrl="https://i.ibb.co/3yzhcY3/farm.jpg">
                 <span>Donate</span>
               </ImageContainer>
             </HelpLink>
             <HelpLink to="/distributors">
-              <ImageContainer imageUrl="https://res.cloudinary.com/dfxj5hpgc/image/upload/v1590987454/sharon-mccutcheon-ZQI6N_jaM_I-unsplash_ojn5jc.jpg">
+              <ImageContainer imageUrl="https://i.ibb.co/GxbBjRh/food-drive-dist.jpg">
                 <span>Distribute</span>
               </ImageContainer>
             </HelpLink>
