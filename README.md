@@ -6,14 +6,12 @@
 
 # Annona
 
-
-
-
 ## Table of Contents
 
 - [Usage](#usage)
 - [Installation](#installation)
 - [Resources](#resources)
+- [Future Updates](#future-updates)
 - [Members](#members)
 - [License](#license)
 
@@ -36,10 +34,9 @@ If you do not have yarn installed please follow these [instructions](https://cla
 2. Please see [instructions here](https://github.com/No-Crop-Left-Behind/no-food-left-behind-server).
 3. Continue starting localhost server and postgres database with instructions.
 
+## Future Updates
+
 ## Resources
-
-
-
 
 ## Members
 
